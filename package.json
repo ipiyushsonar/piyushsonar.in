@@ -1,11 +1,11 @@
 {
-  "name": "tomjwatson.com",
+  "name": "piyushsonar.in",
   "private": true,
   "version": "0.1.0",
-  "description": "Web app for tomjwatson.com",
+  "description": "Web app for piyushsonar.in",
   "license": "MIT",
   "scripts": {
-    "build": "next build && next export",
+    "build": "next build",
     "dev": "next dev",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,json,yml}\"",
     "lint": "eslint --max-warnings=0 --cache --ext .js,.ts,.tsx . && prettier --check \"**/*.{js,ts,tsx,css,scss,json,yml}\"",
