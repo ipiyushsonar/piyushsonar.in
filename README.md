@@ -1,6 +1,6 @@
 # piyushsonar.in
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/da995ebc-e03c-40cb-a64b-d97fd1b2110c/deploy-status)](https://app.netlify.com/sites/tomjwatson/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0b89bb27-54f0-4d73-927a-64df83c6ca42/deploy-status)](https://app.netlify.com/sites/piyushsonar/deploys)
 
 This repo contains the source code for [piyushsonar.in](https://piyushsonar.in). It is built using [nextjs](nextjs.org/).
 
