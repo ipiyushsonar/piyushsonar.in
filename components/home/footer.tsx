@@ -39,6 +39,16 @@ export default function Footer() {
 						<Button icon={<ExternalLinkIcon width={20} />} text='LinkedIn' />
 					</Link>
 				</Paragraph>
+				<Paragraph>
+					<Link 
+						rel="me" 
+						external 
+						href="https://fosstodon.org/@ipiyushsonar" 
+						underline={false}
+					>
+						<Button icon={<ExternalLinkIcon width={20} />} text='Mastodon' />
+					</Link>
+				</Paragraph>
 			</>
 		</Container>
 	);
