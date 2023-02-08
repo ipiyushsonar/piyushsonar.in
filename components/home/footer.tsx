@@ -41,7 +41,6 @@ export default function Footer() {
 				</Paragraph>
 				<Paragraph>
 					<Link 
-						rel="me" 
 						external 
 						href="https://fosstodon.org/@ipiyushsonar" 
 						underline={false}
