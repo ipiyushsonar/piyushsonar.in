@@ -59,7 +59,7 @@ export default function Projects() {
 				<Project
 					title='Wikitrivia'
 					description=' Wikidata as a trivia card game.'
-					image='https://raw.githubusercontent.com/ipiyushsonar/piyushsonar.in/main/public/projects/wikitrivia.png'
+					image='wikitrivia.png'
 					links={[
 						['Website', 'https://wikitrivia.tomjwatson.com/'],
 						['Source', 'https://github.com/ipiyushsonar/wikitrivia'],
@@ -77,7 +77,7 @@ export default function Projects() {
 				<Project
 					title='p2p.chat'
 					description='P2P video conferencing powered by WebRTC.'
-					image='https://raw.githubusercontent.com/ipiyushsonar/piyushsonar.in/main/public/projects/p2p-chat.png'
+					image='p2p-chat.png'
 					links={[
 						['Website', 'https://p2p.chat'],
 						['Source', 'https://github.com/ipiyushsonar/p2p.chat'],
@@ -92,7 +92,7 @@ export default function Projects() {
 				<Project
 					title='detoxed.news'
 					description='The important news, without the toxicity.'
-					image='https://raw.githubusercontent.com/ipiyushsonar/piyushsonar.in/main/public/projects/detoxed-news.png'
+					image='detoxed-news.png'
 					links={[
 						['Website', 'https://detoxed.news'],
 						['Source', 'https://github.com/ipiyushsonar/detoxed.news'],
