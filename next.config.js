@@ -1,7 +1,7 @@
-import withPlugins from 'next-compose-plugins';
-import { EnvironmentPlugin } from 'webpack';
+const withPlugins = require('next-compose-plugins');
+const { EnvironmentPlugin } = require('webpack');
 
-export default withPlugins([], {
+module.exports = withPlugins([], {
   webpack(config, { isServer }) {
     if (!isServer) {
       const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
