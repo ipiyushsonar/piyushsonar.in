@@ -37,3 +37,7 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+# Ignore IDE specific files
+.vscode/
+.idea/
