@@ -1,18 +1,17 @@
 import React from "react";
 import Container from "../container";
 import Header from "../lib/header";
-import Paragraph from "../lib/paragraph";
 import Link from "../lib/link";
 import Button from "../lib/button";
 import { ExternalLinkIcon } from "@heroicons/react/outline";
 
 export default function Footer() {
-  return (
+	return (
 		<Container>
 			<>
 				<Header title='Contact' />
 				<Header title='Links' />
-				<Paragraph>
+				<div className='pb-10 flex flex-row gap-3'>
 					<Link
 						external
 						href='https://www.github.com/ipiyushsonar'
@@ -20,8 +19,6 @@ export default function Footer() {
 					>
 						<Button icon={<ExternalLinkIcon width={20} />} text='GitHub' />
 					</Link>
-				</Paragraph>
-				<Paragraph>
 					<Link
 						external
 						href='https://twitter.com/ipiyushsonar'
@@ -29,8 +26,6 @@ export default function Footer() {
 					>
 						<Button icon={<ExternalLinkIcon width={20} />} text='Twitter' />
 					</Link>
-				</Paragraph>
-				<Paragraph>
 					<Link
 						external
 						href='https://www.linkedin.com/in/ipiyushsonar/'
@@ -38,16 +33,14 @@ export default function Footer() {
 					>
 						<Button icon={<ExternalLinkIcon width={20} />} text='LinkedIn' />
 					</Link>
-				</Paragraph>
-				<Paragraph>
-					<Link 
-						external 
-						href="https://fosstodon.org/@ipiyushsonar" 
+					<Link
+						external
+						href="https://fosstodon.org/@ipiyushsonar"
 						underline={false}
 					>
 						<Button icon={<ExternalLinkIcon width={20} />} text='Mastodon' />
 					</Link>
-				</Paragraph>
+				</div>
 			</>
 		</Container>
 	);
