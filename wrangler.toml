@@ -1,0 +1,8 @@
+name = "piyushsonar.in"
+compatibility_date = "2023-10-10"
+
+[site]
+bucket = "./public"
+
+[env.production]
+account_id = "your-account-id"
