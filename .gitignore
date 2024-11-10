@@ -41,3 +41,4 @@ yarn-error.log*
 # Ignore IDE specific files
 .vscode/
 .idea/
+.env

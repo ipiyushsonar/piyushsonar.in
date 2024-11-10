@@ -1,15 +1,14 @@
-const withPlugins = require('next-compose-plugins');
-const { EnvironmentPlugin } = require('webpack');
+// const { EnvironmentPlugin } = require('webpack');
 
-module.exports = withPlugins([], {
-  webpack(config, { isServer }) {
-    if (!isServer) {
-      const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-      config.plugins.push(new ForkTsCheckerWebpackPlugin());
-    }
-    config.plugins.push(new EnvironmentPlugin(process.env));
-    return config;
-  },
+module.exports = {
+  // webpack(config, { isServer }) {
+  //   if (!isServer) {
+  //     const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+  //     config.plugins.push(new ForkTsCheckerWebpackPlugin());
+  //   }
+  //   config.plugins.push(new EnvironmentPlugin(process.env));
+  //   return config;
+  // },
   productionBrowserSourceMaps: true,
   trailingSlash: true,
   images: {
@@ -33,4 +32,4 @@ module.exports = withPlugins([], {
       },
     ];
   },
-});
+};
