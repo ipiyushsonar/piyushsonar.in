@@ -12,8 +12,7 @@
     "prettier:format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,json,yml,html}\"",
     "start": "next start",
     "deploy": "next build && next export",
-    "clean:build": "rimraf .next out",
-    "prepare": "husky install"
+    "clean:build": "rimraf .next out"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
