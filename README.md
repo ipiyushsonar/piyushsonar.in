@@ -9,13 +9,13 @@ This repo contains the source code for [piyushsonar.in](https://piyushsonar.in).
 ### Prerequisites
 
 ```bash
-yarn
+pnpm install
 ```
 
 ### Development
 
 ```bash
-yarn run dev
+pnpm dev
 ```
 
 Then visit http://localhost:3000/ to preview the website.
@@ -25,11 +25,11 @@ Then visit http://localhost:3000/ to preview the website.
 To build a static version of the website to the `out` folder, run:
 
 ```bash
-yarn build
+pnpm build
 ```
 
 Then run said build with:
 
 ```bash
-yarn start
+pnpm start
 ```
