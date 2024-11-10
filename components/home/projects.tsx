@@ -44,7 +44,7 @@ function Project(props: ProjectProps) {
 				<img
 					className="max-h-full rounded shadow-lg sm:rounded-lg shadow-yellow-900"
 					alt=""
-					src={`https://raw.githubusercontent.com/ipiyushsonar/piyushsonar.in/main/public/projects//projects/${image}`}
+					src={`https://raw.githubusercontent.com/ipiyushsonar/piyushsonar.in/main/public/projects/${image}`}
 				/>
 			</div>
 		</div>
