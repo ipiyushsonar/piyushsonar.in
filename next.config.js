@@ -14,7 +14,7 @@ module.exports = {
     imageSizes: [16, 32, 48, 64],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 3600,
-    images.unoptimized = true
+    unoptimized: true
   },
   webpack: (config, { dev }) => {
     if (dev) {
