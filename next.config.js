@@ -1,3 +1,5 @@
+const isExport = process.env.NEXT_PHASE === 'phase-export';
+
 module.exports = {
   output: 'export',
   productionBrowserSourceMaps: true,
@@ -11,16 +13,20 @@ module.exports = {
     minimumCacheTTL: 60,
   },
   async headers() {
+    if (isExport) {
+      return [];
+    }
     return [
-      {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
+      // ...your custom headers configuration...
     ];
+  },
+  webpack: (config, { dev }) => {
+    if (dev) {
+      config.watchOptions = {
+        poll: 1000,
+        aggregateTimeout: 300,
+      };
+    }
+    return config;
   },
 };
