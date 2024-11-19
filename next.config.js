@@ -1,14 +1,5 @@
-// const { EnvironmentPlugin } = require('webpack');
-
 module.exports = {
-  // webpack(config, { isServer }) {
-  //   if (!isServer) {
-  //     const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-  //     config.plugins.push(new ForkTsCheckerWebpackPlugin());
-  //   }
-  //   config.plugins.push(new EnvironmentPlugin(process.env));
-  //   return config;
-  // },
+  output: 'export',
   productionBrowserSourceMaps: true,
   trailingSlash: true,
   images: {

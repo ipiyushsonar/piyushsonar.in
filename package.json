@@ -11,7 +11,7 @@
     "prettier:check": "prettier --check \"**/*.{js,ts,tsx,css,scss,json,yml,html}\"",
     "prettier:format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,json,yml,html}\"",
     "start": "next start",
-    "deploy": "next build && next export",
+    "deploy": "next build",
     "clean:build": "rimraf .next out"
   },
   "dependencies": {
