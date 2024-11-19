@@ -1,29 +1,24 @@
-const isExport = process.env.NEXT_PHASE === 'phase-export';
-
 module.exports = {
   output: 'export',
   productionBrowserSourceMaps: true,
   trailingSlash: true,
   images: {
-    domains: ['raw.githubusercontent.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+        pathname: '/ipiyushsonar/piyushsonar.in/main/public/**',
+      },
+    ],
     deviceSizes: [640, 750, 828, 1080],
     imageSizes: [16, 32, 48, 64],
     formats: ['image/avif', 'image/webp'],
-    dangerouslyAllowSVG: false,
-    minimumCacheTTL: 60,
-  },
-  async headers() {
-    if (isExport) {
-      return [];
-    }
-    return [
-      // ...your custom headers configuration...
-    ];
+    minimumCacheTTL: 3600,
   },
   webpack: (config, { dev }) => {
     if (dev) {
       config.watchOptions = {
-        poll: 1000,
+        poll: 3000,
         aggregateTimeout: 300,
       };
     }
