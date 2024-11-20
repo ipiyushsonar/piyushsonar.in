@@ -1,5 +1,5 @@
 # Piyush Sonar's Portfolio
-https://www.bestpractices.dev/projects/9721/badge)](https://www.bestpractices.dev/projects/9721
+
 <!-- add cloudflare pages build status -->
 [![GitHub license](https://img.shields.io/github/license/ipiyushsonar/piyushsonar.in)](https://github.com/ipiyushsonar/piyushsonar.in/blob/main/LICENSE)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-Deployed-blue)](https://piyushsonar.in)
