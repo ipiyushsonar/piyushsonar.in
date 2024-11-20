@@ -5,6 +5,7 @@ import Header from "../lib/header";
 import Paragraph from "../lib/paragraph";
 import Link from "../lib/link";
 import Button from "../lib/button";
+import Image from "next/image";
 
 interface LinkProps {
 	text: string;
@@ -41,10 +42,11 @@ function Project(props: ProjectProps) {
 			</div>
 			<Paragraph className="mb-3">{description}</Paragraph>
 			<div className="flex items-center justify-center w-full p-4 mb-8 rounded-lg project-backdrop sm:p-8">
-				<img
+				<Image
 					className="max-h-full rounded shadow-lg sm:rounded-lg shadow-yellow-900"
 					alt=""
 					src={`https://raw.githubusercontent.com/ipiyushsonar/piyushsonar.in/main/public/projects/${image}`}
+					unoptimized
 				/>
 			</div>
 		</div>

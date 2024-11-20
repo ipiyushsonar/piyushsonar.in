@@ -1,35 +1,28 @@
-// const { EnvironmentPlugin } = require('webpack');
-
 module.exports = {
-  // webpack(config, { isServer }) {
-  //   if (!isServer) {
-  //     const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-  //     config.plugins.push(new ForkTsCheckerWebpackPlugin());
-  //   }
-  //   config.plugins.push(new EnvironmentPlugin(process.env));
-  //   return config;
-  // },
+  output: 'export',
   productionBrowserSourceMaps: true,
   trailingSlash: true,
   images: {
-    domains: ['raw.githubusercontent.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+        pathname: '/ipiyushsonar/piyushsonar.in/main/public/**',
+      },
+    ],
     deviceSizes: [640, 750, 828, 1080],
     imageSizes: [16, 32, 48, 64],
     formats: ['image/avif', 'image/webp'],
-    dangerouslyAllowSVG: false,
-    minimumCacheTTL: 60,
+    minimumCacheTTL: 3600,
+    unoptimized: true
   },
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
-      },
-    ];
+  webpack: (config, { dev }) => {
+    if (dev) {
+      config.watchOptions = {
+        poll: 3000,
+        aggregateTimeout: 300,
+      };
+    }
+    return config;
   },
 };
