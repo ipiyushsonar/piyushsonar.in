@@ -1,5 +1,5 @@
 # Piyush Sonar's Portfolio
-
+https://www.bestpractices.dev/projects/9721/badge)](https://www.bestpractices.dev/projects/9721
 <!-- add cloudflare pages build status -->
 [![GitHub license](https://img.shields.io/github/license/ipiyushsonar/piyushsonar.in)](https://github.com/ipiyushsonar/piyushsonar.in/blob/main/LICENSE)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-Deployed-blue)](https://piyushsonar.in)
@@ -8,6 +8,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/ipiyushsonar/piyushsonar.in)](https://github.com/ipiyushsonar/piyushsonar.in/commits/main)
 [![GitHub top language](https://img.shields.io/github/languages/top/ipiyushsonar/piyushsonar.in)](https://github.com/ipiyushsonar/piyushsonar.in)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ipiyushsonar/piyushsonar.in)](https://github.com/ipiyushsonar/piyushsonar.in)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/9721/badge)](https://www.bestpractices.dev/projects/9721)
 <!-- [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ipiyushsonar/piyushsonar.in)](https://github.com/ipiyushsonar/piyushsonar.in/pulls?q=is%3Apr+is%3Aclosed)
 [![GitHub repo size](https://img.shields.io/github/repo-size/ipiyushsonar/piyushsonar.in)](https://github.com/ipiyushsonar/piyushsonar.in)
 [![GitHub contributors](https://img.shields.io/github/contributors/ipiyushsonar/piyushsonar.in)](https://github.com/ipiyushsonar/piyushsonar.in/graphs/contributors) 
