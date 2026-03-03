@@ -9,6 +9,7 @@ function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Piyush A. Sonar</title>
         <link rel="icon" type="image/ico" href="/favicon.png" />
+        <meta name="cf-2fa-verify" content="ze0mfdgwgqeyjprg" />
       </Head>
       <Component {...pageProps} />
     </div>
