@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "description": "Web app for piyushsonar.in",
   "license": "MIT",
+  "engines": {
+    "node": "^18.18.0 || ^19.8.0 || >=20.0.0"
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev",
