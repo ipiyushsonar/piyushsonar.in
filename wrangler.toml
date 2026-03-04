@@ -1,4 +1,5 @@
-name = "piyushsonar.in"
+name = "piyushsonar-in"
+main = "workers-site/index.js"
 compatibility_date = "2023-10-10"
 pages_build_output_dir = ".next"
 
