@@ -1,5 +1,6 @@
 name = "piyushsonar.in"
 compatibility_date = "2023-10-10"
+pages_build_output_dir = ".next"
 
 [site]
 bucket = "./public"

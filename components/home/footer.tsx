@@ -3,7 +3,7 @@ import Container from "../container";
 import Header from "../lib/header";
 import Link from "../lib/link";
 import Button from "../lib/button";
-import { ExternalLinkIcon } from "@heroicons/react/outline";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 
 export default function Footer() {
 	return (
@@ -17,28 +17,28 @@ export default function Footer() {
 						href='https://www.github.com/ipiyushsonar'
 						underline={false}
 					>
-						<Button icon={<ExternalLinkIcon width={20} />} text='GitHub' />
+						<Button icon={<ArrowTopRightOnSquareIcon width={20} />} text='GitHub' />
 					</Link>
 					<Link
 						external
 						href='https://twitter.com/ipiyushsonar'
 						underline={false}
 					>
-						<Button icon={<ExternalLinkIcon width={20} />} text='Twitter' />
+						<Button icon={<ArrowTopRightOnSquareIcon width={20} />} text='Twitter' />
 					</Link>
 					<Link
 						external
 						href='https://www.linkedin.com/in/ipiyushsonar/'
 						underline={false}
 					>
-						<Button icon={<ExternalLinkIcon width={20} />} text='LinkedIn' />
+						<Button icon={<ArrowTopRightOnSquareIcon width={20} />} text='LinkedIn' />
 					</Link>
 					<Link
 						external
 						href="https://fosstodon.org/@ipiyushsonar"
 						underline={false}
 					>
-						<Button icon={<ExternalLinkIcon width={20} />} text='Mastodon' />
+						<Button icon={<ArrowTopRightOnSquareIcon width={20} />} text='Mastodon' />
 					</Link>
 				</div>
 			</>
