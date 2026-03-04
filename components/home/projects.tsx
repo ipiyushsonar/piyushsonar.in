@@ -1,5 +1,5 @@
 import React from "react";
-import { ExternalLinkIcon } from "@heroicons/react/outline";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/outline";
 import Container from "../container";
 import Header from "../lib/header";
 import Paragraph from "../lib/paragraph";
@@ -17,7 +17,7 @@ function ProjectLink(props: LinkProps) {
 
 	return (
 		<Link external href={url} underline={false}>
-			<Button icon={<ExternalLinkIcon width={20} />} text={text} />
+			<Button icon={<ArrowTopRightOnSquareIcon width={20} />} text={text} />
 		</Link>
 	);
 }
