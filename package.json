@@ -29,7 +29,8 @@
   "pnpm": {
     "overrides": {
       "postcss": "^8.5.32",
-      "yaml": "^2.8.3"
+      "yaml": "^2.8.3",
+      "@typescript-eslint/typescript-estree>minimatch": "^11.0.1"
     }
   },
   "devDependencies": {
