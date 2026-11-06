@@ -9,7 +9,7 @@ export default function Container(props: Props) {
 
   return (
     <section className="my-16 mx-4 sm:mx-20">
-      <div className="max-w-screen-md m-auto">{children}</div>
+      <div className="max-w-(--breakpoint-md) m-auto">{children}</div>
     </section>
   );
 }
