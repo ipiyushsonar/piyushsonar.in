@@ -16,6 +16,7 @@ module.exports = {
     minimumCacheTTL: 3600,
     unoptimized: true
   },
+  turbopack: {},
   webpack: (config, { dev }) => {
     if (dev) {
       config.watchOptions = {
