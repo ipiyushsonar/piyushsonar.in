@@ -43,7 +43,7 @@ function Project(props: ProjectProps) {
 			<Paragraph className="mb-3">{description}</Paragraph>
 			<div className="flex items-center justify-center w-full p-4 mb-8 rounded-lg project-backdrop sm:p-8">
 				<Image
-					className="max-h-full rounded shadow-lg sm:rounded-lg shadow-yellow-900"
+					className="max-h-full rounded-sm shadow-lg sm:rounded-lg shadow-yellow-900"
 					alt=""
 					src={`https://raw.githubusercontent.com/ipiyushsonar/piyushsonar.in/main/public/projects/${image}`}
 					unoptimized
