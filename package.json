@@ -31,17 +31,16 @@
     "overrides": {
       "postcss": "^8.5.32",
       "yaml": "^2.8.3",
-      "@typescript-eslint/typescript-estree>minimatch": "^11.0.1"
+      "minimatch@10": "^11.0.1"
     }
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.5",
+    "@eslint/js": "^10.0.1",
     "@next/eslint-plugin-next": "^16.4.5",
     "@tailwindcss/postcss": "^4.3.4",
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
-    "eslint": "^9.39.5",
-    "eslint-plugin-react": "^7.37.5",
+    "eslint": "^10.14.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "globals": "^17.14.0",
     "postcss": "^8.5.32",
